@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+    --backgoundColor: #fff;
+    --primaryColor: #46967b;
+    --secondaryDarkColor: #151117;
+    --secondaryColor: #f7a800;
+    --shimmer: #e9e9e9;
+    --bookingFormBorder: #E7E6E6;
+}
+
+@theme inline {
+    --color-background: var(--backgoundColor);
+    --color-primaryColor: var(--primaryColor);
+    --color-secondaryDarkColor: var(--secondaryDarkColor);
+    --color-secondaryColor: var(--secondaryColor);
+    --color-shimmer: var(--shimmer);
+    --color-bookingFormBorder: var(--bookingFormBorder)
+}
+
+
+@theme {
+    --breakpoint-2xl: 100rem;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
